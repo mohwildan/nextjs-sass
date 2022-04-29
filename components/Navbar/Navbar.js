@@ -34,12 +34,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/">
+              <Link href="/Blog">
                 <a onClick={mobleClick}>Blog</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/">
+              <Link href="/Contact">
                 <a onClick={mobleClick}>Contact Me</a>
               </Link>
             </li>

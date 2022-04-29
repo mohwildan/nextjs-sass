@@ -1,6 +1,8 @@
 @use "../components/Navbar/navbar";
 @use "../components/hero/hero";
 @use "../components/hero/service";
+@use "../components/Contact/contactt";
+@use "../components/Blog/Blog";
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
 
@@ -38,11 +40,11 @@ a {
   backdrop-filter: blur(15px);
 }
 
-.nav-p{
+.nav-p {
   padding: 1rem;
 }
 
-.social-media{
+.social-media {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -51,8 +53,8 @@ a {
   background-color: #fff;
 }
 
-@media(max-width:1000px) {
-  .social-media{
+@media (max-width: 1000px) {
+  .social-media {
     display: none;
   }
 }
