@@ -46,7 +46,9 @@ function Navbar() {
           </ul>
         </div>
         <div id="btn" onClick={handleClick}>
-          {click ? <FaTimes /> : <FaBars />}
+         <div className={click ? "toggle-btn toggle-btn-list" : "toggle-btn"}></div>
+         <div className={click ? "toggle-btn toggle-btn-list" : "toggle-btn"}></div>
+         <div className={click ? "toggle-btn toggle-btn-list" : "toggle-btn"}></div>
         </div>
       </nav>
     </header>
